@@ -1,5 +1,5 @@
-import express from 'Express'; //importacion del pacakge de express
-
+const express = require('Express'); //importacion del pacakge de express
+const app =express();
 //se crean las rutas para el servidor
 
 app.get('/',(req,res) => {
@@ -7,4 +7,4 @@ app.get('/',(req,res) => {
     //se crea la ruta por defecto para el servidor
 });
 //se configura la recepcion de escucha de peticiones
-app.listen(10000);
+app.listen(3000);
